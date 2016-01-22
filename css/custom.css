@@ -1,0 +1,224 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+}
+
+#simple_beautiful
+{
+	background: url('../images/payments-banner-graphic.png') no-repeat center;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+	color: white;
+}
+
+#simple_beautiful ul
+{
+	margin: 0;
+	padding-top: 5px;
+}
+
+
+#simple_beautiful #left_li img
+{
+	width: 30px;
+}
+
+
+#simple_beautiful li
+{
+	display: inline-block;
+	padding: 0 30px 30px 0;
+}
+
+#simple_beautiful #left_li
+{
+	float: left;
+}
+
+#simple_beautiful .right_li
+{
+	float: right;
+}
+
+#simple_beautiful .container
+{
+	clear: both;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
+#first_row
+{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid rgb(246, 249, 251);
+}
+
+#simple_pricing
+{
+	background-color: rgb(246, 249, 251);
+	text-align: center;
+	padding: 30px 0;
+}
+
+#simple_pricing h2
+{
+	font-weight: 400;
+}
+
+#simple_pricing h1
+{
+	display: inline;
+	color: rgb(128,128,190);
+	font-size: 100px;
+	font-weight: 300;
+}
+
+#simple_pricing:nth-child(2)
+{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#simple_pricing p
+{
+	display: inline-block;
+}
+
+#simple_pricing span
+{
+
+}
+
+#credit_card
+{
+	background-color: rgb(76,83,92);
+	color: white;
+	font-weight: 300;
+	font-size: 24px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#imgtxt
+{
+
+}
+
+#imgtxt .row
+{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#imgtxt .row .container
+{
+	width: 50%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#imgtxt .row .container div
+{
+	text-align: center;
+	padding: 25%;
+}
+
+#imgtxt .row .img_container
+{
+	width: 50%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#imgtxt .row .img_container img
+{
+	vertical-align: bottom;
+	padding-top: 30px;
+}
+
+#imgtxt .row .imgleft
+{
+	background-color: rgb(124,213,239);
+}
+
+#imgtxt .row .imgright
+{
+	background-color: rgb(128,128,190);
+}
+
+#freelance
+{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: 300;
+}
+
+#freelance button
+{
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 10px;
+	background-color: rgb(0,174,134);
+	border-radius: 5%;
+	border: 0px transparent;
+}
+
+#footer
+{
+	background-color: rgb(36,38,41);
+	color: rgb(132,137,141);
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+#footer .container
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	width: 60%;
+	margin: auto;
+}
+
+#footer .container ul
+{
+	list-style-type: none;
+}
+
+#footer .container lh
+{
+	font-weight: 100;
+}
+
+#footer .container li
+{
+	padding-top: 10px;
+}
+
+#footer .container i
+{
+	color: rgb(170,170,170);
+}
+
+#footer p
+{
+	display: inline-block;
+	margin: auto;
+	width: 60%;
+}
